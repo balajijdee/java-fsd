@@ -48,6 +48,7 @@ public class Arithmeticcalculator
 	        System.out.println("Invalid operator!");
 	        break;
 	    }
+	    
 
 	    input.close();
 	   }
