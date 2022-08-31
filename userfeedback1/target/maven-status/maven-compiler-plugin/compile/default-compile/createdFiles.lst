@@ -1,0 +1,5 @@
+com\example\userfeedback\Userfeedback1Application.class
+com\example\userfeedback\Feedback.class
+com\example\userfeedback\FeedbackRepository.class
+com\example\userfeedback\Feedbackservice.class
+com\example\userfeedback\FeedbackController.class
