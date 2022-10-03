@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "Balaji",
+      "lastName": "j",
+      "email": "balaji@gmail.com",
+      "mobile": "1233456789",
+      "salary": "20000"
+    },
+    {
+      "id": 2,
+      "firstName": "Dhini",
+      "lastName": "M",
+      "email": "Dhini@gmail.com",
+      "mobile": "123456789",
+      "salary": "40000"
+    },
+    {
+      "id": 3,
+      "firstName": "raksh",
+      "lastName": "R",
+      "email": "raksh@gmail.com",
+      "mobile": "12345677899",
+      "salary": "80000"
+    },
+    {
+      "id": 4,
+      "firstName": "angel",
+      "lastName": "S",
+      "email": "angel@gmail.com",
+      "mobile": "00000000000",
+      "salary": "80000"
+    },
+    {
+      "id": 5,
+      "firstName": "vicky",
+      "lastName": "k",
+      "email": "vicky@gmail.com",
+      "mobile": "737989802380",
+      "salary": "1000000000"
+    }
+  ],
+  "signups": [
+    {
+      "email": "balaji@gmail.com",
+      "password": "123"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
