@@ -1,0 +1,94 @@
+--------------------------------------------------------------------------------- 
+Create database hospital_management;
+use  hospital_management; 
+
+select * from dischargedpatient;
+-------------------------------------------------------------------------------------------
+show tables;
+----------------------------------------------------------------------------------------
+
+Tables_in hospitalmanagement system 
+admin_sign_up
+appointments
+dischargedpatient
+doctor
+feedback
+patient
+
+
+
+----------------------------------------------
+ADIM _SIGN_UP
+----------------------------------------------------------
+CREATE TABLE  admin_sign_up
+id int AI PK 
+email_id varchar(255) 
+password varchar(255) 
+user_name varchar(255)
+-------------------------------------------------------
+appointments
+-----------------------------------------------
+CREATE Table appointments
+Columns:
+ap_id int PK 
+address varchar(255) 
+ap_date varchar(255) 
+ap_time varchar(255) 
+d_name varchar(255) 
+disease varchar(255) 
+gender varchar(255) 
+p_name varchar(255)
+--------------------------------------------------------------
+dischargedpatient
+--------------------------------------------------
+CREATE Table dischargedpatient
+Columns:
+d_id int PK 
+confirm varchar(255) 
+d_date varchar(255) 
+d_name varchar(255) 
+d_time varchar(255) 
+disease varchar(255) 
+p_name varchar(255)
+-----------------------------------------------
+doctor
+-----------------------------------------------
+
+CREATE Table doctor
+
+d_id int 
+accept varchar(255) 
+address varchar(255) 
+contact_no varchar(255) 
+d_name varchar(255) 
+experiance varchar(255) 
+gender varchar(255) 
+password varchar(255) 
+salary varchar(255) 
+specialization varchar(255) 
+username varchar(255) PK
+-------------------------------------------------------
+feedback
+-------------------------------------------
+
+CREATE Table feedback
+
+feedback_id int PK 
+d_name varchar(255) 
+p_comments varchar(255) 
+p_id int 
+p_name varchar(255)
+------------------------------------------------
+
+------------------------------------------
+patient
+--------------------------------------------------
+CREATE Table patient
+
+username varchar(255) 
+password varchar(255) 
+p_id int PK 
+p_contact_no varchar(255) 
+p_gender varchar(255) 
+p_name varchar(255)
+-----------------------------------------------
